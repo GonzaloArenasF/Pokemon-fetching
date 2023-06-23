@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+  background-color: #f6cf2f;
+  color: #125591;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header .menu {
+  width: 40%;
+}
+
+header .menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .menu ul li:hover {
+  border-bottom: 1px solid #395fa7;
+  cursor: pointer;
+}
+
+header aside {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+header aside img {
+  height: 20px;
+  margin-top: 1em;
+  width: 20px;
+}
+
+section.welcome {
+  background-image: url(./assets/pokemon-banner.jpg);
+  background-position: center center;
+  background-size: 100%;
+  box-shadow: 0px -3px 4px #835e1b;
+  height: 300px;
+}
+
+section.galery {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+}
+
+section.galery article {
+  background-color: #ffffff;
+  border: 5px solid #d6b029;
+  border-radius: 10px;
+  height: fit-content;
+  margin: 2em;
+  width: 300px;
+}
+
+section.galery article:hover {
+  box-shadow: 0px 3px 4px #4d4111;
+  cursor: pointer;
+}
+
+section.galery article aside {
+  background-color: #f6cf2f;
+  padding: .5em;
+  text-align: center;
+}
+
+section.galery article aside h2 {
+  margin: 0;
+}
+
+footer {
+  background-color: #2a79c4;
+}
+
+footer .logo {
+  padding: 1em 2em;
+  width: 200px;
+}
